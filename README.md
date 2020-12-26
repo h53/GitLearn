@@ -186,7 +186,7 @@ git tag -d v1.0		    //删除tag
 git remote add origin https://github.com/h53/GitLearn.git	//使用https
 
 git pull --rebase origin master	    //获取远程库与本地合并（如果远程库不为空必须做这一步，
-                                    //例如有README.md文件存在，否则后面的额提交会失败）
+                                    //例如有README.md文件存在，否则后面的提交会失败）
 ```
 
 ### 把本地仓库内容推送到远程：
